@@ -9,5 +9,5 @@ var Data1 = '<h1>' + 'Rekomendowane certyfikaty' + '</h1>' + '<p></p>' + 'Rekome
 
 
 function sayHello(name) {
-alert("Hello" + name)
+alert('<h1>' + 'Sposoby przenoszenia serwisów' + '</h1>')
 }
