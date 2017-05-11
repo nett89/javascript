@@ -13,6 +13,6 @@ function sayHello1(name) {
 document.getElementById("result").innerHTML = 'Jeżeli strona jest niewielka wówczas nie ma problemu z przeniesieniem strony 1 do 1, w takich przypadkach google bot w ciągu kilku tygodni powinien bez problemu zaindeksować nowe wersje. Przy stronach gdzie ilość podstron jest znacznie większa  w porównaniu do ilości stron sprawdzanych przez Google dziennie, powinno się przenosić serwis partiami, Ostatnią grupą serwisów są bardzo duże strony, z uwagi na ilość podstron w obrębie takich serwisów, sprawdzenie całości przez Google może zająć dużo czasu, w tym przypadku powinniśmy zastosować kanoniczne adresy url, umieszczone na obu wersjach i wskazujące wersję https jako wersję właściwą' + ' !';
 }
 
-function Data(parametr){
-  document.write("teksttekst666");
+function newData(parametr){
+  document.write('teksttekst666');
 };
