@@ -14,5 +14,5 @@ document.getElementById("result").innerHTML = 'Jeżeli strona jest niewielka wó
 }
 
 function newData(parametr){
-  window.open().document.write('teksttekst666');
+  window.open().document.write('<p>' + 'Mamy przygotowana wersję https://' + '</p>' + 'Jednocześnie cały czas działa wersja http://');
 };
