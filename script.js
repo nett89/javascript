@@ -14,5 +14,5 @@ document.getElementById("result").innerHTML = 'Jeżeli strona jest niewielka wó
 }
 
 function Data(parametr){
-  return("teksttekst666");
+  document.write("teksttekst666");
 };
