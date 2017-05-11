@@ -16,3 +16,9 @@ document.getElementById("result").innerHTML = 'Jeżeli strona jest niewielka wó
 function newData(parametr){
   window.open().document.write('<p>' + 'Mamy przygotowana wersję https://' + '</p>' + 'Jednocześnie cały czas działa wersja http://');
 };
+
+var objekt01 = {
+    firstLine:"Na obu wersjach ustawiamy tag kanoniczny wskazujący wersję https://",
+    secLine:"Wdrażamy wersję https:// (obie wersje działają jednocześnie, na obu wersjach ustawiony jest tag kanoniczny wskazujący wersję https://)",
+    lastLine:"Kiedy wersja https:// zostanie zaindeksowana (zgoda działu SEO) ustawiamy przekierowanie 301 z wersji http:// na https://"
+};
