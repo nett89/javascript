@@ -22,3 +22,4 @@ var objekt01 = {
     secLine:"Wdrażamy wersję https:// (obie wersje działają jednocześnie, na obu wersjach ustawiony jest tag kanoniczny wskazujący wersję https://)",
     lastLine:"Kiedy wersja https:// zostanie zaindeksowana (zgoda działu SEO) ustawiamy przekierowanie 301 z wersji http:// na https://"
 };
+ 
