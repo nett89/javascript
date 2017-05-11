@@ -41,13 +41,15 @@ Kliknij przycisk aby zobaczyć wpis</button>
   <p></p>
   <button onclick="newData('dowolnyparametr')">Zobacz tekst w wyskakującym okienku!(pobierany z funkcji)</button>
   <p></p>
-  <button onclick="objekt01.firstLine">Zobacz tekst Poniżej!(pobierany z objektu)</button>
   
+  <p></p>
   <button type="button"
-onclick="document.getElementById('demo01').innerHTML = objekt01.firstLine;">
-Kliknij przycisk aby zobaczyć wpis pobrany z obiektu</button>
+  onclick="document.getElementById('demo01').innerHTML = objekt01.firstLine;">
+  Kliknij przycisk aby zobaczyć wpis pobrany z obiektu</button>
 
-<p id="demo01"></p>
+  <p id="demo01"></p>
+  
+  <button onclick="objekt01.firstLine">Zobacz tekst Poniżej! (pobierany z objektu)</button>
   
   <script src="/javascript/script.js" type="text/javascript"></script>
 
