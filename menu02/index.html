@@ -17,11 +17,11 @@ function myFunction() {
     new_div_menu.className = 'menu-rozwijane';
     new_div_menu.innerHTML = 'this created div contains class while created!!!';
      
- for (var i=0, i<4, i++) {
+ for ( i=0; i<4; i++) {
     var a = document.createElement('a');
     a.href =  'google.com'; // Insted of calling setAttribute 
     a.innerHTML = "Link" // <a>INNER_TEXT</a>
-    new_div_menu.appendChild(a); // Append the link to the div
+    new_div_menu.appendChild(a) + "<br>"; // Append the link to the div
  }
     document.getElementById('menu-top').appendChild(new_div_menu);
   
