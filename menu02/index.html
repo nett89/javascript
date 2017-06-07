@@ -22,28 +22,19 @@ function addElement()
 
 </script>
   
-  
-<body onload="addElement()">
-<div id='org_div1'></div>
+ 
+
+ <body onload="myFunction()"> 
+ <button onclick="myFunction()">Try it</button>
 
   
-<p>Click the button to create a P element with some text, and append it to DIV.</p>
-
-<div id="myDIV">
-A DIV element
-</div>
-
-  
-  <button onclick="myFunction()">Try it</button>
-<body onload="myFunction()">
-  
-<div id="dd"></div>
+<div id="menu-top"></div>
 <script>
 function myFunction() {
     var new_div_menu = document.createElement("div");
     new_div_menu.className = 'menu-rozwijane';
     new_div_menu.innerHTML = 'this created div contains class while created!!!';
-    document.getElementById('dd').appendChild(new_div_menu);
+    document.getElementById('menu-top').appendChild(new_div_menu);
   
     //var t = document.createTextNode("This is a paragraph.");
    // para.appendChild(t);
