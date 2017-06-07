@@ -4,25 +4,6 @@
 <title>Menu generowane dynamicznie z zewnętrznego pliku</title>
 </head>
 
-<script type="text/javascript">
-var my_div = null;
-var newDiv = null;
-
-function addElement()
-{
-  // tworzy nowy element div 
-  // i daje jego zawartość 
-  newDiv = document.createElement("div");
-  newDiv.innerHTML = "<h1>Nowe rozwijane menu</h1>";
-
-  // add the newly created element and it's content into the DOM
-  my_div = document.getElementById("org_div1");
-  document.body.insertBefore(newDiv, my_div);
-}
-
-</script>
-  
- 
 
  <body onload="myFunction()"> 
  <button onclick="myFunction()">Try it</button>
@@ -32,6 +13,7 @@ function addElement()
 <script>
 function myFunction() {
     var new_div_menu = document.createElement("div");
+    new_div_menu.id = 'menu-rozwijane-id';
     new_div_menu.className = 'menu-rozwijane';
     new_div_menu.innerHTML = 'this created div contains class while created!!!';
     document.getElementById('menu-top').appendChild(new_div_menu);
