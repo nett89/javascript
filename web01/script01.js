@@ -26,7 +26,7 @@ var objekt01 = {
 function myFunction() {
     var str = "Zobacz link do strony posiadającej menu w javascrip!";
     var result = str.link("https://nett89.github.io/javascript/menu/");
-    document.getElementById("demo").innerHTML = result;
+    document.getElementById("demo05").innerHTML = result;
 }
 
 
