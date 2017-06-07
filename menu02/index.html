@@ -16,11 +16,23 @@ function myFunction() {
     new_div_menu.id = 'menu-rozwijane-id';
     new_div_menu.className = 'menu-rozwijane';
     new_div_menu.innerHTML = 'this created div contains class while created!!!';
+     
+    var a = document.createElement('a');
+    a.href =  'google.com'; // Insted of calling setAttribute 
+    a.innerHTML = "Link" // <a>INNER_TEXT</a>
+    new_div_menu.appendChild(a); // Append the link to the div
+ 
     document.getElementById('menu-top').appendChild(new_div_menu);
   
     //var t = document.createTextNode("This is a paragraph.");
    // para.appendChild(t);
    // document.getElementById("myDIV").appendChild(para);
+ 
+
+   // document.body.appendChild(new_div_menu); // And append the div to the document body 
+ 
+ 
+ 
 }
 </script>
   
