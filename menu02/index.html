@@ -19,9 +19,16 @@ function myFunction() {
      
  for ( i=0; i<4; i++) {
     var a = document.createElement('a');
+  
+  if(i=0){
     a.href =  'google.com'; // Insted of calling setAttribute 
     a.innerHTML = "Link" // <a>INNER_TEXT</a>
-    new_div_menu.appendChild(a) + "<br>"; // Append the link to the div
+  }
+    if(i=1){
+    a.href =  'google.com'; // Insted of calling setAttribute 
+    a.innerHTML = "Link" // <a>INNER_TEXT</a>
+  }
+    new_div_menu.appendChild(a); // Append the link to the div
  }
     document.getElementById('menu-top').appendChild(new_div_menu);
   
