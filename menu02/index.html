@@ -33,20 +33,11 @@ function addElement()
 A DIV element
 </div>
 
-<button onclick="myFunction()">Try it</button>
-
-<script>
-function myFunction() {
-    var para = document.createElement("div");
-    var t = document.createTextNode("This is a paragraph.");
-    para.appendChild(t);
-    document.getElementById("myDIV").appendChild(para);
-}
-</script>
   
   <button onclick="myFunction()">Try it</button>
-
-  <div id="dd"></div>
+<body onload="myFunction()">
+  
+<div id="dd"></div>
 <script>
 function myFunction() {
     var new_div_menu = document.createElement("div");
