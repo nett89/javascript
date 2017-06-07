@@ -37,14 +37,28 @@ A DIV element
 
 <script>
 function myFunction() {
-    var para = document.createElement("P");
+    var para = document.createElement("div");
     var t = document.createTextNode("This is a paragraph.");
     para.appendChild(t);
     document.getElementById("myDIV").appendChild(para);
 }
-  
 </script>
   
+  <button onclick="myFunction()">Try it</button>
+
+  <div id="dd"></div>
+<script>
+function myFunction() {
+    var new_div_menu = document.createElement("div");
+    new_div_menu.className = 'menu-rozwijane';
+    new_div_menu.innerHTML = 'this created div contains class while created!!!';
+    document.getElementById('dd').appendChild(new_div_menu);
+  
+    //var t = document.createTextNode("This is a paragraph.");
+   // para.appendChild(t);
+   // document.getElementById("myDIV").appendChild(para);
+}
+</script>
   
   
   
