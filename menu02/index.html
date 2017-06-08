@@ -18,19 +18,21 @@ function myFunction() {
     new_div_menu.innerHTML = 'this created div contains class while created!!!';
      
  for ( i=0; i<4; i++) {
-    var a = document.createElement('a');
+    
   
     switch(i) {
     case 0:
+    var a = document.createElement('a');
     a.href =  'google.com'; // Insted of calling setAttribute 
     a.innerHTML = "Link" // <a>INNER_TEXT</a>
-    //new_div_menu.appendChild(a); // Append the link to the div
+    new_div_menu.appendChild(a); // Append the link to the div
     case 1:
+    var a = document.createElement('a');
     a.href =  'google.pl'; // Insted of calling setAttribute 
     a.innerHTML = "Link2" // <a>INNER_TEXT</a>
-    
-            }
     new_div_menu.appendChild(a); // Append the link to the div
+            }
+    
 
  }
     document.getElementById('menu-top').appendChild(new_div_menu);
