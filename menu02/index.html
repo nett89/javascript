@@ -17,29 +17,22 @@ function myFunction() {
     new_div_menu.className = 'menu-rozwijane';
     new_div_menu.innerHTML = 'this created div contains class while created!!!';
      
-
+ for ( i=0; i<4; i++) {
+    
+  
+    if(i == 0) {
 
     var a = document.createElement('a');
     a.href =  'google.com'; // Insted of calling setAttribute 
     a.innerHTML = "Link ";// <a>INNER_TEXT</a>
     new_div_menu.appendChild(a); // Append the link to the div
-
+    }
+  else if (i == 1) {
     var a = document.createElement('a');
     a.href =  'google.pl'; // Insted of calling setAttribute 
     a.innerHTML = "Link2";// <a>INNER_TEXT</a>
-    new_div_menu.appendChild(a); // Append the link to the div      
-
-    var a = document.createElement('a');
-    a.href =  'google.co'; // Insted of calling setAttribute 
-    a.innerHTML = "Link3";// <a>INNER_TEXT</a>
-    new_div_menu.appendChild(a); // Append the link to the div
-               
-    var a = document.createElement('a');
-    a.href =  'google.de'; // Insted of calling setAttribute 
-    a.innerHTML = "Link4";// <a>INNER_TEXT</a>
-    new_div_menu.appendChild(a); // Append the link to the div
-          
-    
+    new_div_menu.appendChild(a); // Append the link to the div            
+            }
 
  }
     document.getElementById('menu-top').appendChild(new_div_menu);
