@@ -16,7 +16,8 @@ function myFunction() {
     new_div_menu.id = 'menu-rozwijane-id';
     new_div_menu.className = 'menu-rozwijane';
     new_div_menu.innerHTML = 'this created div contains class while created!!!';
-     
+    var p1 = document.createElement('p');
+    new_div_menu.appendChild(p1);
  for ( i=0; i<4; i++) {
     
   
@@ -26,26 +27,28 @@ function myFunction() {
     a.href =  'google.com'; // Insted of calling setAttribute 
     a.innerHTML = "Link ";// <a>INNER_TEXT</a>
     new_div_menu.appendChild(a); // Append the link to the div
-    var p = document.createElement('p');
-    new_div_menu.appendChild(p);
+    new_div_menu.appendChild(p1);
     }
     else if (i == 1) {
     var a = document.createElement('a');
     a.href =  'google.pl'; // Insted of calling setAttribute 
     a.innerHTML = "Link2 ";// <a>INNER_TEXT</a>
     new_div_menu.appendChild(a); // Append the link to the div
+    new_div_menu.appendChild(p1);
     }
     else if (i == 2) {
     var a = document.createElement('a');
     a.href =  'google.pqql'; // Insted of calling setAttribute 
     a.innerHTML = "Link3 ";// <a>INNER_TEXT</a>
     new_div_menu.appendChild(a); // Append the link to the div
+    new_div_menu.appendChild(p1);
     }
-      else {
+     else {
     var a = document.createElement('a');
     a.href =  'google.pwwwl'; // Insted of calling setAttribute 
     a.innerHTML = "Link4 ";// <a>INNER_TEXT</a>
     new_div_menu.appendChild(a); // Append the link to the div
+    new_div_menu.appendChild(p1);
     }
  }
     document.getElementById('menu-top').appendChild(new_div_menu);
