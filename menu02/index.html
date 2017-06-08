@@ -26,6 +26,8 @@ function myFunction() {
     a.href =  'google.com'; // Insted of calling setAttribute 
     a.innerHTML = "Link ";// <a>INNER_TEXT</a>
     new_div_menu.appendChild(a); // Append the link to the div
+    var p = document.createElement('p');
+    new_div_menu.appendChild(p);
     }
     else if (i == 1) {
     var a = document.createElement('a');
