@@ -15,12 +15,14 @@ function myFunction() {
     var new_div_menu = document.createElement("div");
     new_div_menu.id = 'menu-rozwijane-id';
     new_div_menu.className = 'menu-rozwijane';
-    new_div_menu.innerHTML = 'this created div contains class while created!!!';
-    var p1 = document.createElement('p');
-    new_div_menu.appendChild(p1);
+    new_div_menu.innerHTML = 'this created div contains class while created!!!' + '<br>';
+
 
 for ( i=0; i<4; i++) {
-
+ 
+    var p1 = document.createElement('p');
+    new_div_menu.appendChild(p1);
+ 
     if(i == 0) {
 
     var a = document.createElement('a');
