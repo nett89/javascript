@@ -17,9 +17,8 @@ function myFunction() {
     new_div_menu.className = 'menu-rozwijane';
     new_div_menu.innerHTML = 'this created div contains class while created!!!';
 
-    new_div_menu.appendChild(p1);
- for ( i=0; i<4; i++) {
-         
+for ( i=0; i<4; i++) {
+         var p1 = document.createElement('p');
   
     if(i == 0) {
 
@@ -27,7 +26,7 @@ function myFunction() {
     a.href =  'google.com'; // Insted of calling setAttribute 
     a.innerHTML = "Link ";// <a>INNER_TEXT</a>
     new_div_menu.appendChild(a); // Append the link to the div
-    var p1 = document.createElement('p');
+   // var p1 = document.createElement('p');
     new_div_menu.appendChild(p1);
     }
     else if (i == 1) {
@@ -35,7 +34,7 @@ function myFunction() {
     a.href =  'google.pl'; // Insted of calling setAttribute 
     a.innerHTML = "Link2 ";// <a>INNER_TEXT</a>
     new_div_menu.appendChild(a); // Append the link to the div
-     var p1 = document.createElement('p');
+    //var p1 = document.createElement('p');
     new_div_menu.appendChild(p1);
     }
     else if (i == 2) {
@@ -43,6 +42,7 @@ function myFunction() {
     a.href =  'google.pqql'; // Insted of calling setAttribute 
     a.innerHTML = "Link3 ";// <a>INNER_TEXT</a>
     new_div_menu.appendChild(a); // Append the link to the div
+   // var p1 = document.createElement('p');
     new_div_menu.appendChild(p1);
     }
      else {
@@ -50,6 +50,7 @@ function myFunction() {
     a.href =  'google.pwwwl'; // Insted of calling setAttribute 
     a.innerHTML = "Link4 ";// <a>INNER_TEXT</a>
     new_div_menu.appendChild(a); // Append the link to the div
+  //  var p1 = document.createElement('p');
     new_div_menu.appendChild(p1);
     }
  }
