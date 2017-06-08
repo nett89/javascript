@@ -3,19 +3,16 @@
 <head>
 <title>Menu generowane dynamicznie z zewnętrznego pliku</title>
 </head>
-
-
- <body onload="myFunction()"> 
- <button onclick="myFunction()">Try it</button>
-
-  
+ 
+<body onload="myFunction()"> 
+ 
 <div id="menu-top"></div>
 <script>
 function myFunction() {
     var new_div_menu = document.createElement("div");
     new_div_menu.id = 'menu-rozwijane-id';
     new_div_menu.className = 'menu-rozwijane';
-    new_div_menu.innerHTML = 'this created div contains class while created!!!' + '<br>';
+    new_div_menu.innerHTML = 'Menu generowane dynamicznie z zewnętrznego pliku po wczytaniu strony' + '<br>';
 
 
 for ( i=0; i<4; i++) {
@@ -58,20 +55,10 @@ for ( i=0; i<4; i++) {
     }
  }
     document.getElementById('menu-top').appendChild(new_div_menu);
-  
-    //var t = document.createTextNode("This is a paragraph.");
-   // para.appendChild(t);
-   // document.getElementById("myDIV").appendChild(para);
- 
-
-   // document.body.appendChild(new_div_menu); // And append the div to the document body 
- 
  
  
 }
 </script>
-  
-  
-  
+ 
 </body>
 </html>
