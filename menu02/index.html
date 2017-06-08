@@ -27,12 +27,12 @@ function myFunction() {
     a.innerHTML = "Link ";// <a>INNER_TEXT</a>
     new_div_menu.appendChild(a); // Append the link to the div
     }
-  else if (i == 1) {
+    else {
     var a = document.createElement('a');
     a.href =  'google.pl'; // Insted of calling setAttribute 
-    a.innerHTML = "Link2";// <a>INNER_TEXT</a>
-    new_div_menu.appendChild(a); // Append the link to the div            
-            }
+    a.innerHTML = "Link2 ";// <a>INNER_TEXT</a>
+    new_div_menu.appendChild(a); // Append the link to the div
+    }
 
  }
     document.getElementById('menu-top').appendChild(new_div_menu);
