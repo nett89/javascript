@@ -27,13 +27,24 @@ function myFunction() {
     a.innerHTML = "Link ";// <a>INNER_TEXT</a>
     new_div_menu.appendChild(a); // Append the link to the div
     }
-    else {
+    else if (i == 1) {
     var a = document.createElement('a');
     a.href =  'google.pl'; // Insted of calling setAttribute 
     a.innerHTML = "Link2 ";// <a>INNER_TEXT</a>
     new_div_menu.appendChild(a); // Append the link to the div
     }
-
+    else if (i == 2) {
+    var a = document.createElement('a');
+    a.href =  'google.pqql'; // Insted of calling setAttribute 
+    a.innerHTML = "Link3 ";// <a>INNER_TEXT</a>
+    new_div_menu.appendChild(a); // Append the link to the div
+    }
+      else {
+    var a = document.createElement('a');
+    a.href =  'google.pwwwl'; // Insted of calling setAttribute 
+    a.innerHTML = "Link4 ";// <a>INNER_TEXT</a>
+    new_div_menu.appendChild(a); // Append the link to the div
+    }
  }
     document.getElementById('menu-top').appendChild(new_div_menu);
   
