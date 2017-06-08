@@ -6,8 +6,9 @@
 </head>
  
 <body onload="myFunction()"> 
-<button onclick="myFunction1()" class="dropbtn">Dropdown</button>
+
 <div id="menu-top"></div>
+<button onclick="myFunction1()" class="dropbtn">Dropdown</button>
 <script>
 function myFunction() {
     var new_div_menu = document.createElement("div");
@@ -59,7 +60,27 @@ for ( i=0; i<4; i++) {
  
  
 }
+
+ /* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction1() {
+    document.getElementById("menu-rozwijane-id").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("menu-rozwijane");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
 </script>
- 
 </body>
 </html>
