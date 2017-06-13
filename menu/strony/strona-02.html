@@ -20,6 +20,12 @@
   <p>
 W okienku poniżej znajduje się tekst, który jest wczytywany bezpośrednino z zewnętrznego pliku script.js, tekst wczytuje się automatycznie po załadowaniu strony ->
   </p>
+  
+  <button type="button"
+onclick="document.getElementById('demo').innerHTML = Data1;">
+Kliknij przycisk aby zobaczyć wpis</button>
+
+<p id="demo"></p>
 
     <div class="app-wrapper">
     <div id="app-root"></div>
@@ -27,11 +33,7 @@ W okienku poniżej znajduje się tekst, który jest wczytywany bezpośrednino z 
   
   <h3>Artykuł dostepny po kliknieciu przycisku (zdarzenie onClick), dane pobierane z oddzielnego pliku bezpośrednio ze zmiennej</h3>
 
-<button type="button"
-onclick="document.getElementById('demo').innerHTML = Data1;">
-Kliknij przycisk aby zobaczyć wpis</button>
 
-<p id="demo"></p>
   
   <h3>Artykuł dostepny po kliknieciu przycisku (zdarzenie onClick), dane pobierane z oddzielnego pliku prezentowane jako popup</h3>
   <button onclick="sayHello('world')">Zobacz tekst w wyskakującym okienku!</button>
