@@ -1,6 +1,11 @@
 body {
    background-image: url('https://nett89.github.io/javascript/seoseo1.jpg'); 
 }
+ #menu-rozwijane-id p {
+    color:white;
+}
+
+
 .dropbtn {
     background-color: #3BBFFF;
     color: white;
