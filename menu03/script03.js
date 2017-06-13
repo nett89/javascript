@@ -1,4 +1,4 @@
-<script>
+
 function myFunction() {
     var new_div_menu = document.createElement("div");
     new_div_menu.id = 'menu-rozwijane-id';
@@ -64,4 +64,4 @@ window.onclick = function(event) {
     }
   }
 }
-</script>
+
