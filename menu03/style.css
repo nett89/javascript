@@ -1,0 +1,41 @@
+.dropbtn {
+    background-color: #3BBFFF;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width:100%;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #222221;
+}
+
+.menu-top {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-rozwijane {
+    display: none;
+    position: absolute;
+    background-color: #3BBFFF;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 50px;
+}
+
+.menu-rozwijane a {
+    color: #FFFFFF;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid grey;
+}
+
+.menu-top a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
