@@ -29,7 +29,7 @@ margin-right: auto;
 }
 
 .button {
-    background-color: #3BBFFF;
+    background-color: #3BBFFF!important;
     border: none;
     color: white;
     padding: 15px 32px;
