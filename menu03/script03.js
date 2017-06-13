@@ -11,8 +11,8 @@ for ( i=0; i<4; i++) {
  
     if(i == 0) {
     var a = document.createElement('a');
-    a.href =  'google.com'; // Insted of calling setAttribute 
-    a.innerHTML = "Link ";// <a>INNER_TEXT</a>
+    a.href =  '/javascript/menu'; // Insted of calling setAttribute 
+    a.innerHTML = "MENU ";// <a>INNER_TEXT</a>
     new_div_menu.appendChild(p1);
     new_div_menu.appendChild(a); // Append the link to the div
     
