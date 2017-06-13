@@ -3,7 +3,7 @@ function myFunction() {
     var new_div_menu = document.createElement("div");
     new_div_menu.id = 'menu-rozwijane-id';
     new_div_menu.className = 'menu-rozwijane';
-    new_div_menu.innerHTML = 'Menu generowane dynamicznie z zewnętrznego pliku po wczytaniu strony' + '<br>';
+    new_div_menu.innerHTML = '<p>' + 'Menu generowane dynamicznie z zewnętrznego skryptu js' + '</p>' + '<br>';
 for ( i=0; i<4; i++) {
  
     var p1 = document.createElement('p');
