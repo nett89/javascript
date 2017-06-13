@@ -21,5 +21,6 @@ h2 {
 Width:50%;
 padding:20px;
 font-size: 25px;
-
+margin-left: auto;
+margin-right: auto;
 }
