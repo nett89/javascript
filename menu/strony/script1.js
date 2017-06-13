@@ -1,0 +1,1 @@
+var Data1 = '<h1>' + 'Rekomendowane certyfikaty' + '</h1>' + '<p></p>' + 'Rekomendowany jest zakup komercyjnego certyfikatu SSL. Jeżeli mowa o kodowaniu  dostępnych jest kilka opcji, najlepiej jednak wybrać certyfikat SHA2 (SHA256) jest on bezpieczniejszy od SHA1, strony korzystające z SHA1 z uwagi na mniej bezpieczne szyfrowanie będą traktowane jako niezabezpieczone.';
