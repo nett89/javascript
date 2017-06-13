@@ -37,6 +37,7 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 18px;
+    width:100%;
 }
 .butt{
     width:20%;
